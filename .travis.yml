@@ -9,3 +9,7 @@ services:
   - docker
 
 script: make ci
+
+arch:
+  - amd64
+  - ppc64le
